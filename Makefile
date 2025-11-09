@@ -1,4 +1,4 @@
-CXX ?= clang++
+CXX ?= g++-15
 CXXFLAGS ?= -std=c++20 -Wall -Wextra -Wpedantic -Iinclude
 SRC := $(wildcard src/*.cpp)
 OBJ := $(patsubst src/%.cpp,build/%.o,$(SRC))
