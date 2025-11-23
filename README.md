@@ -1,6 +1,6 @@
 # Aurora-16 Software CPU
 
-Aurora-16 is a teaching-oriented 16-bit software CPU that couples a small yet expressive ISA with an emulator, assembler, and example programs. The project demonstrates how a CPU can be specified, simulated, and programmed end-to-end using modern C++20.
+Aurora-16 is a 16-bit software CPU that couples a small yet expressive ISA with an emulator, assembler, and example programs. The project demonstrates how a CPU can be specified, simulated, and programmed end-to-end using modern C++20.
 
 ## Repository layout
 
