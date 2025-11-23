@@ -2,7 +2,7 @@
 
 ## CPU schematic
 
-![Aurora-16 schematic](../assets/cpu_schematic.png)
+![Aurora-16 schematic](../assets/CPU_schematic.png)
 
 Aurora-16 is a single-cycle, von Neumann CPU with a Harvard-style conceptual split between instruction control and data movement. The datapath consists of:
 
