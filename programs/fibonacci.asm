@@ -23,7 +23,6 @@ loop:
 
         HALT
 
-; Prints R3 in hexadecimal (0x0000 format) and preserves caller registers
 ; Prints R3 in decimal and preserves caller registers
 print_decimal:
         PUSH r0
