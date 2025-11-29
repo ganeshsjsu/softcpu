@@ -30,13 +30,6 @@ print_decimal:
         PUSH r5
         PUSH r6
 
-        ; Handle 0 special case
-        CMP r3, #0
-        JNZ init_extract
-        LDI r4, #'0'
-        STORE r4, [IO_CONSOLE_DATA]
-        JMP done_decimal
-
 init_extract:
         LDI r6, #0          ; Digit count
         LDI r4, #10         ; Divisor
